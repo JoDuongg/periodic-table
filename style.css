@@ -2108,7 +2108,7 @@ body {
 #transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
 #basic-metals:checked ~ .periodic-table .element:not(.basic-metal),
 #metalloids:checked ~ .periodic-table .element:not(.metalloid),
-#nonmetals:checked ~ .periodic-table .element:not(.nonmetal),
+#nonmetals:checked ~ .periodic-table .element:not(.nonmetal, .halogen, .noble-gas),
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
 #halogen:checked ~ .periodic-table .element:not(.halogen),
 #alkali-metals:checked ~ .periodic-table .placeholder,
